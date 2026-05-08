@@ -1,6 +1,6 @@
 import type { Project } from '../types';
 import SMS from '../assets/images/projects/SMS.png';
-import Leetboard from '../assets/images/projects/LeetBoard.png';
+import Leetboard from '../assets/images/projects/Leetboard.png';
 
 
 export const projects: Project[] = [
