@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg-primary text-text-primary font-sans antialiased selection:bg-accent-primary/30 selection:text-text-primary overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-bg-primary/70 backdrop-blur-md border-b border-border;
+  }
+  .glass-card {
+    @apply bg-bg-secondary/40 backdrop-blur-sm border border-border rounded-xl transition-all duration-300 hover:border-accent-primary/50 hover:shadow-[0_0_15px_rgba(108,99,255,0.1)];
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-primary to-accent-secondary;
+  }
+}
