@@ -70,7 +70,7 @@ export const Contact = () => {
           <p className="font-mono text-accent-primary mb-2">05. What's Next?</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
           <p className="text-text-secondary max-w-xl mx-auto">
-            Although I'm not currently looking for any new opportunities, my inbox is always open.
+            I'm always open to new ideas or any other opportunities,my inbox is always open.
             Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
         </motion.div>
